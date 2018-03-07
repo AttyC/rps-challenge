@@ -27,7 +27,6 @@ class Game
 
   def moves(player1_choice, player2_choice)
     winning_moves = { 'Rock' => 'Scissors', 'Paper' => 'Rock', 'Scissors' => 'Paper' }
-    p player1_choice == player2_choice
     return "It's a draw!" if (player1_choice == player2_choice)
     return "#{player1.name} wins!" if winning_moves[player1_choice] == player2_choice
     return "#{player2.name} wins!"
