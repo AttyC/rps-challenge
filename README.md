@@ -85,4 +85,4 @@ gem 'sinatra'
  Assistance with choosing fonts and some colours provided by Isla, 8. My own CSS plus fonts from Google Fonts
 
 ## If I had more time
-I would enable two views so each user is unable to see the other's choice. Deploy to Heroku.
+I would enable two views so each user is unable to see the other's choice. 
